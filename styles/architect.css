@@ -95,3 +95,37 @@ align-items: center;
     }
 
 }
+
+/* main styles */
+main{
+    max-width: 1440px;
+
+}
+
+/* teams styles */
+.teams-container{
+    display: flex;
+    align-items: center;
+    padding-top: 2rem;
+}
+.teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+
+}
+.teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.teams-title{
+    font-size: 2.8rem;
+}
+.quick-list{
+color: #727272;
+font-weight: 500;
+}
+.text-features{
+    font-weight: 700;
+    color: #FF900E;
+}

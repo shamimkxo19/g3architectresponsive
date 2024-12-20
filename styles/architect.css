@@ -60,6 +60,7 @@ nav li a{
 align-items: center;
 } */
 .banner img {
+    padding-top: 3.2rem;
     display: block;
     margin: 0 auto; /* Horizontally centers the image */
     max-width: 100%; /* Makes it responsive */

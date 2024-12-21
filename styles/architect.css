@@ -2,175 +2,201 @@
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* shared styles */
-.text-light-gray{
-    color: #727272;
-    font-size: 1rem;
+.text-light-gray {
+  color: #727272;
+  font-size: 1rem;
 }
-.section-title{
-    font-size: 2.8rem;
-    font-weight: 700;
-    color: #131313;
-
+.section-title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #131313;
 }
 
 * {
   font-family: "Work Sans", sans-serif;
+  max-width: 100%;
 }
 
 /* header styles */
-header{
-    background-color: burlywood;
-    padding: 50px 200px ;
-}   
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    
+header {
+  background-color: burlywood;
+  padding: 50px 200px;
 }
-nav ul{
-    display: flex;
-    align-items: center;
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 30px;
-    font-weight: 500;
-    font-size: 1rem;
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-right: 30px;
+  font-weight: 500;
+  font-size: 1rem;
 }
 
-nav li a{
-    text-decoration: none;
-    color: #424242 ;
+nav li a {
+  text-decoration: none;
+  color: #424242;
 }
-.nav-title{
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #414141;
+.nav-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #414141;
 }
 /* banner-styles */
-.banner-content{
-    max-width: 800px;
-    text-align: center;
-    margin: 0 auto;
-
+.banner-content {
+  max-width: 800px;
+  text-align: center;
+  margin: 0 auto;
 }
 /* .banner img{
    max-width: 100%;
 align-items: center;
 } */
 .banner img {
-    padding-top: 3.2rem;
-    display: block;
-    margin: 0 auto; /* Horizontally centers the image */
-    max-width: 100%; /* Makes it responsive */
-    height: auto; /* Maintains the aspect ratio */
+  padding-top: 3.2rem;
+  display: block;
+  margin: 0 auto; /* Horizontally centers the image */
+  max-width: 100%; /* Makes it responsive */
+  height: auto; /* Maintains the aspect ratio */
 }
 
-.banner-title{
-    font-size: 4rem;
-    font-weight: 700;
-    color: #131313;
-
-
+.banner-title {
+  font-size: 4rem;
+  font-weight: 700;
+  color: #131313;
 }
-.banner-description{
-    color: #727272;
-
+.banner-description {
+  color: #727272;
 }
-.btn-primary{
-    border-radius: 8px;
-    color: #fff;
-    background-color: #FF900E;
-    padding: 20px 25px;
-    font-size: 1.25rem;
-    font-weight: 600;
-    cursor: pointer;
-    border: 0;
+.btn-primary {
+  border-radius: 8px;
+  color: #fff;
+  background-color: #ff900e;
+  padding: 20px 25px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  border: 0;
 }
-
-
 
 /* main styles */
-main{
-    max-width: 1440px;
-
+main {
+  max-width: 1440px;
 }
 
 /* teams styles */
-.teams-container{
-    display: flex;
-    align-items: center;
-    padding-top: 2rem;
+.teams-container {
+  display: flex;
+  align-items: center;
+  padding-top: 2rem;
 }
-.teams-img-container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
-
+.teams-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
 }
-.teams-content{
-    padding-left: 70px;
-    padding-right: 70px;
+.teams-content {
+  padding-left: 70px;
+  padding-right: 70px;
 }
-.teams-title{
-    font-size: 2.8rem;
+.teams-title {
+  font-size: 2.8rem;
 }
-.quick-list{
-color: #727272;
-font-weight: 500;
+.quick-list {
+  color: #727272;
+  font-weight: 500;
 }
-.text-features{
-    font-weight: 700;
-    color: #FF900E;
+.text-features {
+  font-weight: 700;
+  color: #ff900e;
 }
 /* facts section */
-.facts-card-container{
-    display: flex;
-    justify-content: space-around;
+.facts-card-container {
+  display: flex;
+  justify-content: space-around;
 }
- .facts-card-container .card{
-    border-radius: 8px;
-    border: 1px solid #ff900e;
+.facts-card-container .card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  text-align: center;
+  padding: 20px 40px;
+}
+.facts-card-container .card-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+.facts-card-container .card-stats {
+  font-size: 2.8rem;
+  color: #424242;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/* sponsors styles */
+.sponsors {
     text-align: center;
-    padding: 20px 40px;
-
-   
- }
- .facts-card-container .card-title{
-    font-weight: 600;
-    font-size: 1.25rem;
-
- }
- .facts-card-container .card-stats{
-    font-size: 2.8rem;
-    color: #424242;
-    margin-top: 5px;
-    margin-bottom: 5px;
-    
- }
+  }
+  .sponsors-img-container{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  .sponsors-img-container img{
+    width: 165px;
+  }
 
 /* responsive media queries */
-@media screen  and (max-width: 576px) {
-    header{
-        padding: 20px;
-
-    }
-    nav, .teams-container{
-        flex-direction: column;
-
-    }
-    .teams-img-container{
-        grid-template-columns: 1fr;
-    }
+@media screen and (max-width: 576px) {
+  header {
+    padding: 20px;
+  }
+  nav,
+  .teams-container,
+  .facts-card-container,
+  .sponsors-img-container {
+    flex-direction: column;
+  }
+  .teams-img-container {
+    grid-template-columns: 1fr;
+  }
+.sponsors-img-container{
+    /* max-width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem; */
+}
+  .teams-content .facts-card-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .facts-card-container {
+    gap: 1.25rem;
+  }
+  
 }
 
 /* tablet or medium screen */
 
-@media  screen and (min-width: 576px) and (max-width: 960px) {
-    nav, .teams-container{
-        padding: 50px;
-        flex-direction: column;
-    }
-
+@media screen and (min-width: 576px) and (max-width: 960px) {
+  nav,
+  .teams-container {
+    padding: 50px;
+    flex-direction: column;
+  }
+  .sponsors-img-container{
+    padding-top: 3.5rem;
+    flex-direction: column;
+  }
+  .facts-card-container {
+    display: grid; /* Ensure it's a grid layout */
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
 }
